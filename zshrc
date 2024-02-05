@@ -44,6 +44,9 @@ alias gst='git status'
 alias gpu='git pull'
 alias gco='git checkout'
 
+function wherep { sudo lsof -p $1 | grep cwd }
+alias kkk='kill -9 '
+function kkp { kill -9 $(pgrep -f $1) }
 
 
 alias zc='vim ~/.zshrc'
