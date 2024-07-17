@@ -28,9 +28,9 @@ export LC_ALL=$LANG
 alias rl='rm *.log'
 alias ml='mv *.log logs'
 alias v='vim '
-alias ll='ls -aHl'
-alias lll='ll -h'
-alias l='ls -aHl'
+alias ll='ls -ahl'
+alias lll='ll -H'
+alias l='ls -ahl'
 alias psg='ps -ef | grep'
 alias ss='sort -k6,7'
 
